@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "Ary",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "build": "yarn workspaces foreach run build"
+  }
+}
